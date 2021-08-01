@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2697558 */
+  src: url('iconfont.woff2?t=1627540404871') format('woff2'),
+       url('iconfont.woff?t=1627540404871') format('woff'),
+       url('iconfont.ttf?t=1627540404871') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 1.2vw;
+  padding: 0.5vw;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-queding:before {
+  content: "\e67a";
+}
+
+.i-bilibili:before {
+  content: "\e6b4";
+  color: rgb(0, 161, 214);
+}
+
+.i--youtube:before {
+  content: "\e659";
+  color: rgb(255, 0, 0);
+}
+
+.i-el-icon-default-douban:before {
+  content: "\e6dc";
+}
+
+.i-el-icon-default-Weibo:before {
+  content: "\e6de";
+}
+
+.i-el-icon-default-WeChat:before {
+  content: "\e6df";
+}
+
+.i-ei-icon-default-twitter:before {
+  content: "\e92a";
+}
+

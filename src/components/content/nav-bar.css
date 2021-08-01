@@ -1,0 +1,45 @@
+/*iconfont*/
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('./icon-css/iconfont.css');
+  
+.nav .nav-items{
+      display: flex;
+      margin: 0;
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  .nav .nav-items .nav-link{
+      padding: 1.6rem 1rem;
+      font-size: 1.1rem;
+      position: relative;
+      font-family: var(--Abel);
+      font-size: 1.1rem;
+  }
+  
+  .nav .nav-items .nav-link:hover{
+      background-color: rgb(15, 95, 162);
+  }
+  
+  .nav .nav-items .nav-link:hover a{
+      color:var(--white);
+  }
+  .nav .nav-items .nav-link a{
+    text-decoration: none;
+    color: #0f0f0f;
+  }
+  .nav .nav-brand{
+    width: 10vw;
+    padding-left: 2vw;
+      font-size: 1.6rem;
+      display: block;
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: 1.6rem;
+  }
+  .nav .social{
+    width: 10vw;
+  }
+  .nav .social a{
+    text-decoration: none;
+    color: grey;
+  }

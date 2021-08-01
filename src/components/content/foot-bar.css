@@ -1,0 +1,43 @@
+@import url('./icon-css/iconfont.css');
+
+  .footer{
+    background-color: black;
+        padding: 30px;
+  }
+  .footer .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      color: blanchedalmond;
+      height: 30vh;
+  }
+  .footer .container div p {
+    color: var(--text-light);
+  }
+  .footer .container > div {
+      flex-grow: 1;
+      flex-basis: 0;
+      padding: 2rem 2rem;
+      width: 15vw;
+  }
+  .footer .container .email{
+    width:210px;
+  }
+  .footer .container .email .email-input{
+      outline-style: none ;
+      background: transparent;
+      border: 0px;
+      color: white;
+  }
+  .footer .container .dev-pic{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2rem;
+  }
+  .footer .footer-soc{
+      margin-top: 16px;
+    }
+    .footer .footer-soc a{
+      text-decoration: none;
+      color: grey;
+    }
+  
